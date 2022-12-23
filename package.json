@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/LucientZ/web-application/issues"
   },
-  "homepage": "https://github.com/LucientZ/web-application#readme"
+  "homepage": "https://github.com/LucientZ/web-application#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
