@@ -4,8 +4,8 @@
   "description": "This is a web application built with node.js",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server",
-    "start": "node server"
+    "test": "nodemon src/server",
+    "start": "node src/server"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const PORT = 3000;
+const port = 8080;
 
 app.set('view engine', 'ejs');
 
@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
     res.render('pages/index', {});
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port: ${PORT}`);
-})
+app.listen(port, () => {
+    console.log(`Application is listening on http://localhost:${port}`);
+});
