@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "nodemon src/server",
-    "start": "node src/server"
+    "start": "node src/server",
+    "docker-vm": "docker-compose up --force-recreate --build -d && docker image prune -f"
   },
   "repository": {
     "type": "git",

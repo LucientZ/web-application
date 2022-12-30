@@ -9,5 +9,5 @@ npm start
 
 ## With Docker
 ```
-docker-compose up
+npm run-script docker-vm
 ```
