@@ -4,10 +4,11 @@
   "description": "This is a web application built with node.js",
   "main": "server.js",
   "scripts": {
-    "test": "echo \" No tests specified\"",
-    "prestart": "node src/init",
+    "test": "echo \"No tests specified\"",
+    "setup": "node src/init",
+    "prestart": "npm run-script setup",
     "start": "nodemon src/server",
-    "predocker-vm": "node src/init",
+    "predocker-vm": "npm run-script setup",
     "docker-vm": "docker-compose up --force-recreate --build && docker image prune -f"
   },
   "repository": {
