@@ -8,7 +8,7 @@
     "prestart": "node src/init",
     "start": "nodemon src/server",
     "predocker-vm": "node src/init",
-    "docker-vm": "docker-compose up --force-recreate --build -d && docker image prune -f"
+    "docker-vm": "docker-compose up --force-recreate --build && docker image prune -f"
   },
   "repository": {
     "type": "git",
