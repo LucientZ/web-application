@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 
 // Get request behavior renders index.ejs as the response
 app.get('/', (req, res) => {
-    res.render('./pages/index', {});
+    res.render('./pages/index', {title: "Main Page"});
 });
 
 // Application begins listening on port.
