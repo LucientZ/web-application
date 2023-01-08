@@ -1,6 +1,8 @@
 const express = require("express");
 require('dotenv').config({path: './config/.env'});
+
 const app = express();
+app.use(express.urlencoded({extended: true}));
 
 const port = process.env.PORT || 8080; // Attempts to pull port from env variable. If this value is falsy, set default to 8000.
 
@@ -14,5 +16,5 @@ app.get('/', (req, res) => {
 
 // Application begins listening on port.
 app.listen(port, () => {
-    console.log(`Application is listening on http://localhost:${port}`);
+    console.log(`Application is listening on ${process.env.HOST_NAME}`);
 });
