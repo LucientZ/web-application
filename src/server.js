@@ -9,10 +9,18 @@ const port = process.env.PORT || 8080; // Attempts to pull port from env variabl
 // Set Express to render ejs files
 app.set('view engine', 'ejs');
 
-// Get request behavior renders index.ejs as the response
+// Application Routes
 app.get('/', (req, res) => {
-    res.render('./pages/index', {title: "Main Page"});
+    res.status(200);
+    res.render('./pages/index', {title: 'Main Page'});
 });
+
+app.get('*', (req, res) =>{
+    res.status(404);
+    res.render('./pages/404', {title: '404 Not Found'})
+});
+
+
 
 // Application begins listening on port.
 app.listen(port, () => {
