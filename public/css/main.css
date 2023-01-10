@@ -1,10 +1,14 @@
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .main-footer {
     background-color: whitesmoke;
-    position: absolute;
-    margin-top: 10vh;
+    margin-top: auto;
     width: 100%;
-    bottom: 0;
-    z-index: -1;
+    flex: 0 0 5vh;
 }
 
 .content {
