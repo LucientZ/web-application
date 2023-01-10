@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
     res.render('./pages/index', {title: 'Main Page'});
 });
 
+app.get('/create', (req, res) =>{
+    res.render('./pages/create', {title: 'Create Post'});
+});
+
 app.get('*', (req, res) =>{
     res.status(404);
     res.render('./pages/404', {title: '404 Not Found'})

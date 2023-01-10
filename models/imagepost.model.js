@@ -13,6 +13,10 @@ const imagePostSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    tags: {
+        type: Array,
+        required: true
+    },
     attachmentId: {
         type: String,
         required: true
@@ -24,4 +28,4 @@ const imagePostSchema = new mongoose.Schema({
 }, {timestamps: true});
 
 const ImagePost = mongoose.model('ImagePost', creationSchema);
-module.exports = Creation;
+module.exports = ImagePost;
