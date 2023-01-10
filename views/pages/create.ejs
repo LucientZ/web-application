@@ -5,34 +5,35 @@
 </head>
 <body>
     <%- include('../partials/_header') %>
-
-    <div class="container col-md-10 m-auto">
-        <h1 class="text-center display-4 mx-auto my-4">Create Post</h1>
-        <form class="m-auto" method="POST" action="/create" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="title">Post Title</label>
-                <input class="form-control" type="text" id="title" name="title" placeholder="Example Title" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="description">Description</label>
-                <textarea class="form-control" id="description" name="description" rows="4" placeholder="Write your description here" required></textarea>
-            </div>
-
-            <div class="form-group">
-                <label for="tags">Tags (optional)</label>
-                <input class="form-control" type="text" id="tags" name="tags" placeholder="Separate tags with a space. ex: [tag1] [tag2] [tag3]...">
-            </div>
-
-            <div class="form-group">
-                <label for="attachment">Post Attachment</label>
-                <input class="form-control-file" type="file" id="attachment" name="attachment" required>
-            </div>
-
-            <input class="btn btn-primary btn-block" type="submit">
-        </form>
+    <div class="content">
+        <div class="container col-md-10 m-auto">
+            <h1 class="text-center display-4 mx-auto my-4">Create Post</h1>
+            <form class="m-auto" method="POST" action="/create" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="title">Post Title</label>
+                    <input class="form-control" type="text" id="title" name="title" placeholder="Example Title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" id="description" name="description" rows="4" placeholder="Write your description here" required></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <label for="tags">Tags (optional)</label>
+                    <input class="form-control" type="text" id="tags" name="tags" placeholder="Separate tags with a space. ex: [tag1] [tag2] [tag3]...">
+                </div>
+    
+                <div class="form-group">
+                    <label for="attachment">Post Attachment</label>
+                    <input class="form-control-file" type="file" id="attachment" name="attachment" required>
+                </div>
+    
+                <input class="btn btn-primary btn-block" type="submit">
+            </form>
+        </div>
     </div>
 
-    
+    <%- include('../partials/_footer') %>
 </body>
-<%- include('../partials/_footer') %>
+</html>

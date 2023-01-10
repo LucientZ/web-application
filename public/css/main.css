@@ -1,0 +1,13 @@
+.main-footer {
+    background-color: whitesmoke;
+    position: absolute;
+    margin-top: 10vh;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content {
+    background-color: white;
+    padding-bottom: 5vh;
+}
