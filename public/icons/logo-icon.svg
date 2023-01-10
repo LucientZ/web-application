@@ -1,17 +1,17 @@
 <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Main">
+<g id="logo-icon">
 <g id="Card 3" filter="url(#filter0_d_1_2)">
-<path d="M12 21C12 18.2386 14.2386 16 17 16H71C73.7614 16 76 18.2386 76 21V100C76 102.761 73.7614 105 71 105H17C14.2386 105 12 102.761 12 100V21Z" fill="#D31C1C"/>
+<path d="M9 21C9 18.2386 11.2386 16 14 16H68C70.7614 16 73 18.2386 73 21V100C73 102.761 70.7614 105 68 105H14C11.2386 105 9 102.761 9 100V21Z" fill="#FAFF00"/>
 </g>
 <g id="Card 2" filter="url(#filter1_d_1_2)">
-<rect x="30" y="14" width="64" height="89" rx="5" fill="#0094FF"/>
+<rect x="28" y="13" width="64" height="89" rx="5" fill="#00D1FF"/>
 </g>
 <g id="Card 1" filter="url(#filter2_d_1_2)">
-<rect x="48" y="12" width="64" height="89" rx="5" fill="#FAFF00"/>
+<rect x="47" y="10" width="64" height="89" rx="5" fill="#FF0000"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_d_1_2" x="8" y="16" width="68" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_1_2" x="5" y="16" width="68" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-3" dy="2"/>
@@ -21,7 +21,7 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
 </filter>
-<filter id="filter1_d_1_2" x="26" y="14" width="68" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d_1_2" x="24" y="13" width="68" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-3" dy="2"/>
@@ -31,7 +31,7 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
 </filter>
-<filter id="filter2_d_1_2" x="44" y="12" width="68" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_d_1_2" x="43" y="10" width="68" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-3" dy="2"/>

@@ -1,7 +1,7 @@
 <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Favicon">
-<path id="Card 3" d="M12 21C12 18.2386 14.2386 16 17 16H71C73.7614 16 76 18.2386 76 21V100C76 102.761 73.7614 105 71 105H17C14.2386 105 12 102.761 12 100V21Z" fill="#D31C1C"/>
-<rect id="Card 2" x="30" y="14" width="64" height="89" rx="5" fill="#0094FF"/>
-<rect id="Card 1" x="48" y="12" width="64" height="89" rx="5" fill="#FAFF00"/>
+<g id="favicon">
+<path id="Card 3" d="M9 21C9 18.2386 11.2386 16 14 16H68C70.7614 16 73 18.2386 73 21V100C73 102.761 70.7614 105 68 105H14C11.2386 105 9 102.761 9 100V21Z" fill="#FAFF00"/>
+<rect id="Card 2" x="28" y="13" width="64" height="89" rx="5" fill="#00D1FF"/>
+<rect id="Card 1" x="47" y="10" width="64" height="89" rx="5" fill="#FF0000"/>
 </g>
 </svg>
