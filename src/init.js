@@ -55,5 +55,8 @@ async function promptEnvVars(){
         if(!(process.env.PORT && process.env.DB_URI && process.env.HOST_NAME)){
             throw new Error('.env file is not formatted correctly. One or more variables return falsy.');
         }
+        else{
+            console.log('Using ./config/.env');
+        }
     }
 })();
