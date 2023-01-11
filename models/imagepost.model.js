@@ -27,5 +27,5 @@ const imagePostSchema = new mongoose.Schema({
     }
 }, {timestamps: true});
 
-const ImagePost = mongoose.model('ImagePost', creationSchema);
+const ImagePost = mongoose.model('ImagePost', imagePostSchema);
 module.exports = ImagePost;
