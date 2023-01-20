@@ -1,0 +1,35 @@
+/* Handler for when screen width is too small */
+@media (max-width: 600px){
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.main-nav {
+    background-color:rgb(240, 255, 255);
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.more-dropdown {
+    position:absolute;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.main-footer {
+    background-color: whitesmoke;
+    margin-top: auto;
+    width: 100%;
+    flex: 0 0 5vh;
+}
+
+.content {
+    background-color: white;
+    padding-bottom: 5vh;
+}

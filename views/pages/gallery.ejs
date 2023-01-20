@@ -1,0 +1,23 @@
+<!-- This is a boilerplate page to start with for future pages. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/_head') %>
+</head>
+<body>
+    <%- include('../partials/_header') %>
+    <div class="content">
+        <h1>Post Gallery</h1>
+        <% if (posts.length > 0){ %>
+            <% posts.forEach(post => {%>
+                <a class= "single" href="/gallery/post/<%= post._id %>">
+                <h3 class="title border-top"><%= post.title %></h3>
+                </a>
+            <% }) %>
+        <% } else { %>
+            <p>There are no blogs to display</p>
+        <% } %> 
+    </div>
+    <%- include('../partials/_footer') %>
+</body>
+</html>

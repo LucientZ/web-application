@@ -1,0 +1,38 @@
+<nav class="navbar navbar-default main-nav">
+    <a class="navbar-brand" href="/">
+        <img src="public/icons/logo-icon.svg" width="50" height="50">
+        [Placeholder Name]
+    </a>
+
+    <form class="search-bar form-inline" id="main-search-bar">
+        <input class="form-control mr-sm-2" id="search" name="search" type="search" placeholder="Search by tag..." aria-label="Search">
+        <div class="input-group-btn">
+            <button class="btn btn-dark my-2" type="button" for="search">Search</button>
+        </div>
+    </form>
+
+    <div class="d-flex flex-row">
+        <div class="p-2" id="create-btn">
+            <a href="/create">
+                <button class="btn btn-success">Create +</button>
+            </a>
+        </div>
+        <div class="p-2" id="login-btn">
+            <a>
+                <button class="btn btn-outline-dark">Login</button>
+            </a>
+        </div>
+        <div class="p-2" id="more-btn">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
+            <div class="dropdown-menu more-dropdown" aria-labelledby="dropdownMenuButton">
+                <form class="form-inline search-bar dropdown-search-bar" id="dropdown-search-bar">
+                    <input class="form-control mr-sm-2" id="search" name="search" type="search" placeholder="Search by tag..." aria-label="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-dark my-2" type="button" for="search">Search</button>
+                    </div>
+                </form>
+                <a class="dropdown-item" href="#">Login</a>
+            </div>
+        </div>
+    </div>
+</nav>
